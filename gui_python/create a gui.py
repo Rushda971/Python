@@ -1,0 +1,17 @@
+#create a gui
+from tkinter import *
+a=Tk()
+#greet=Label(a,text="first gui")
+#greet.pack()
+a.title("Notepad")
+button1=Button(a,text="File")
+button1.pack(side=LEFT)
+button2=Button(a,text="Edit")
+button2.pack(side=LEFT)
+button3=Button(a,text="Format")
+button3.pack(side=LEFT)
+button4=Button(a,text="View")
+button4.pack(side=LEFT)
+button5=Button(a,text="Help")
+button5.pack(side=LEFT)
+a.mainloop()

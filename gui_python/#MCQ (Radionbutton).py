@@ -1,0 +1,10 @@
+#MCQ (Radionbutton)
+from tkinter import *
+root=Tk()
+root.title("Quiz")
+a=Label(root,text="where do you stay?")
+a.pack()
+var=IntVar()
+Radiobutton(root,text="Mira Road",variable=var,value=1).pack()
+Radiobutton(root,text="Mira Road",variable=var,value=2).pack()
+mainloop()
