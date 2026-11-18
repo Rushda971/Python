@@ -1,0 +1,2 @@
+hello rushda here is learning python.
+she is currently learning file handling.
